@@ -275,9 +275,9 @@ Break down
 ```
 # What I learned
 
-**Data Aggregation**: Got confident with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarising buddies.
-**Complex Query Crafting**: Got confident in using advanced SQL such as merging tables, subqueries, CTEs, however, still have a lot of practice to go before mastering the skills.
-**Analytical Skills**: Improved my real-world problem solving skills, such as turning questions into actionable, insightful SQL queries.
+-**Data Aggregation**: Got confident with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarising buddies.
+-**Complex Query Crafting**: Got confident in using advanced SQL such as merging tables, subqueries, CTEs, however, still have a lot of practice to go before mastering the skills.
+-**Analytical Skills**: Improved my real-world problem solving skills, such as turning questions into actionable, insightful SQL queries.
 
 # Conclusions
 From the analysis, some general insights:
