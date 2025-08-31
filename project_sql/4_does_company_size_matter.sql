@@ -5,9 +5,9 @@ Question: Do larger companies that have more job postings offer higher average s
 - Why? To check whether jobseekers should apply to larger/medium/smaller companies for a bigger salary
 */
 SELECT 
-    company_summary.company_id,
-    company_size,
-    average_salary
+    COUNT(company_summary.company_id) as num_companies,
+    ROUND(AVG(company_summary.average_salary),0) AS average_salary,
+    company_size
 FROM (
     SELECT 
         job_postings_fact.company_id,
@@ -24,5 +24,6 @@ FROM (
     GROUP BY job_postings_fact.company_id
     HAVING COUNT(job_id) > 5
 ) AS company_summary
+GROUP BY company_size
 ORDER BY average_salary DESC;
 

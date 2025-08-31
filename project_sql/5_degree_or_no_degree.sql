@@ -1,5 +1,5 @@
 /*
-Question: Is there a difference in salary between people with a degree and people without a degree
+Question: Is there a difference in salary between people with a degree and people without a degree in New Zealand?
 - Check that the job postings are in New Zealand and the role is for data analyst
 - Why? To see if in New Zealand a degree helps jobseekers earn more than without a degree
 */
