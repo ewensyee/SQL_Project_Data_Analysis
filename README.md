@@ -139,7 +139,7 @@ The breakdown for the most in-demand skills for a data analyst job in New Zealan
 - **Power BI** is almost tied with Excel shows the importance of data visualisation tools.
 - **Python/R** are strong but secondary compared to SQL and BI tools.
 
-```
+
 | Skill    | Skill Count |
 | -------- | ----------- |
 | SQL      | 203         |
@@ -147,7 +147,7 @@ The breakdown for the most in-demand skills for a data analyst job in New Zealan
 | Power BI | 130         |
 | R        | 106         |
 | Python   | 100         |
-```
+
 
 ### 4. Do larger companies that have more job postings offer higher average salaries than smaller or medium companies?
 
@@ -182,13 +182,13 @@ The breakdown for whether larger companies offer higher salaries for a data anal
 - **Medium Companies** offer the highest average salaries, even higher than large companies.
 - **Large Companies** averages at $93,624, which is lower than expected, this could be because larger comapnies hire more junior analysts.
 - **Small Companies** dominate in count of 100 companies, with their average salary higher than larger companies but less than medium companies.
-```
+
 | Company Size   | Number of Companies | Average Salary |
 | -------------- | ------------------- | -------------- |
 | Medium Company | 8                   | 105,286        |
 | Small Company  | 100                 | 96,829         |
 | Large Company  | 7                   | 93,624         |
-```
+
 ### 5. Is there a difference in salary between people with a degree and people without a degree in New Zealand?
 
 To identify whether there was a difference in salary between someone with or without a degree. I filtered to search for job postings in New Zealand and used CASE expression for whether the job posting mentioned for a degree or not. This query highlights whether a degree earns more in New Zealand.
@@ -218,12 +218,12 @@ The breakdown for whether a degree would earn more than someone without a degree
 - Out of the 513 job postings in New Zealand, 390 (76%) were open to jobseekers without a degree.
 - No degree jobs paid slightly more than than those with a degree jobs.
 - Companies might value practical technical skills such as SQL, Python and BI tools over a formal education.
-```
+
 | Degree Requirement | Avg. Salary | Job Postings |
 | ------------------ | ----------- | ------------ |
 | Degree             | 69,771      | 123          |
 | No Degree          | 75,450      | 390          |
-```
+
 
 ### 6. What are the most optimal skills to learn such as in-demand and high-paying skills?
 
@@ -250,7 +250,7 @@ Break down
 - **Go** has the highest average salary although its demand is low at 27 job postings, suggest it's a niche skill but also highly valued.
 -- **Cloud & Data Engineering tools** such as Snowflake, AWS and Azure tend to pay the most however, it's demand is not that highly sought after in the data analyst field.
 
-```
+
 | Skill      | Demand Count | Avg. Salary |
 | ---------- | ------------ | ----------- |
 | SQL        | 398          | 97,237      |
@@ -272,7 +272,7 @@ Break down
 | Flow       | 28           | 97,200      |
 | Go         | 27           | 115,320     |
 | SPSS       | 24           | 92,170      |
-```
+
 # What I learned
 
 **Data Aggregation**: Got confident with GROUP BY and turned aggregate functions like COUNT() and AVG() into my data-summarising buddies.
